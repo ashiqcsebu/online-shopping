@@ -2,9 +2,8 @@ import React, { createContext } from 'react';
 import Father from '../Father/Father';
 
 
-export const RingContext = createContext('matir ring')
+export const RingContext = createContext('matir-ring')
 const Grandpa = () => {
-
 
     return (
         <RingContext.Provider value='dadir ring'>   
@@ -14,7 +13,6 @@ const Grandpa = () => {
                <Father></Father>
             </section>
         </div>
-
 
         </RingContext.Provider>
        
